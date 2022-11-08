@@ -87,6 +87,7 @@ public class Triangle {
     }
 
     public Triangle() {
+        this.ifExist = False;
     }
 
     public Triangle(Point firstPoint, Point secondPoint, Point thirdPoint) {
