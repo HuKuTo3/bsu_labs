@@ -53,10 +53,9 @@ public class SortTriangleByTypes {
         return triangleTypesMap;
     }
 
-    public static double findMaxPerimeter(Map<TriangleTypes, ArrayList<Object>> triangleTypesMap, TriangleTypes triangleType) {
-        ArrayList<Object> trianglesProvidedType = triangleTypesMap.get(triangleType);
+    public static double findMaxPerimeter(TriangleTypes triangleType) {
         ArrayList<Double> trianglePerimeters = new ArrayList<>();
-        for (Object obj : trianglesProvidedType) {
+        for (Object obj : triangleTypesMap.get(triangleType)) {
             Triangle triangle = (Triangle) obj;
             trianglePerimeters.add(triangle.getPerimeter());
         }
@@ -64,5 +63,41 @@ public class SortTriangleByTypes {
         System.out.println("Max perimeter of " + triangleType.name() + " type -> " + maxPerimeter);
 
         return maxPerimeter;
+    }
+
+    public static double findMaxSquare(TriangleTypes triangleType){
+        ArrayList<Double> triangleSquares = new ArrayList<>();
+        for (Object obj : triangleTypesMap.get(triangleType)) {
+            Triangle triangle = (Triangle) obj;
+            triangleSquares.add(triangle.getSquare());
+        }
+        double maxSquare = Collections.max(triangleSquares);
+        System.out.println("Max square of " + triangleType.name() + " type -> " + maxSquare);
+
+        return maxSquare;
+    }
+
+    public static double findMinPerimeter(TriangleTypes triangleType){
+        ArrayList<Double> trianglePerimeters = new ArrayList<>();
+        for (Object obj : triangleTypesMap.get(triangleType)) {
+            Triangle triangle = (Triangle) obj;
+            trianglePerimeters.add(triangle.getPerimeter());
+        }
+        double minPerimeter = Collections.min(trianglePerimeters);
+        System.out.println("Min perimeter of " + triangleType.name() + " type -> " + minPerimeter);
+
+        return minPerimeter;
+    }
+
+    public static double findMinSquare(TriangleTypes triangleType){
+        ArrayList<Double> triangleSquares = new ArrayList<>();
+        for (Object obj : triangleTypesMap.get(triangleType)) {
+            Triangle triangle = (Triangle) obj;
+            triangleSquares.add(triangle.getSquare());
+        }
+        double minSquare = Collections.min(triangleSquares);
+        System.out.println("Min square of " + triangleType.name() + " type -> " + minSquare);
+
+        return minSquare;
     }
 }

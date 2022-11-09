@@ -8,6 +8,6 @@ public class Test {
         //System.out.println(triangle);
         SortTriangleByTypes.addTriangleToList(triangle);
         //System.out.println(SortTriangleByTypes.getTriangleTypesTable());
-        SortTriangleByTypes.findMaxPerimeter(SortTriangleByTypes.getTriangleTypesTable(), RECTANGULAR);
+        SortTriangleByTypes.findMaxPerimeter(RECTANGULAR);
     }
 }
