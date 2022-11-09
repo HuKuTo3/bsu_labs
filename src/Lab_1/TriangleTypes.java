@@ -1,4 +1,7 @@
 package Lab_1;
 
-public class TriangleTypes {
+public enum TriangleTypes {
+    EQUILATERAL, ARBITRARY, RECTANGULAR, ISOSCELES;
+    TriangleTypes() {
+    }
 }
