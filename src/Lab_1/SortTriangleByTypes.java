@@ -3,9 +3,9 @@ package Lab_1;
 import java.util.*;
 
 public class SortTriangleByTypes {
-    public Map<TriangleTypes, ArrayList<Object>> triangleTypesMap = new HashMap<>();
+    private static Map<TriangleTypes, ArrayList<Object>> triangleTypesMap = new HashMap<>();
 
-    public void addTriangleToList(Triangle triangle) {
+    public static void addTriangleToList(Triangle triangle) {
         double firstSideLength = triangle.getFirstSideLength();
         double secondSideLength = triangle.getSecondSideLength();
         double thirdSideLength = triangle.getThirdSideLength();
@@ -25,7 +25,13 @@ public class SortTriangleByTypes {
         }
     }
 
-    public boolean isRectangular(double firstSideLength, double secondSideLength, double thirdSideLength) {
+    public static void addTriangleToList(ArrayList<Triangle> triangles) {
+        for (Triangle obj : triangles) {
+            addTriangleToList(obj);
+        }
+    }
+
+    public static boolean isRectangular(double firstSideLength, double secondSideLength, double thirdSideLength) {
         List<Double> lengthOfSides = new ArrayList<>();
 
         lengthOfSides.add(firstSideLength);
@@ -38,16 +44,16 @@ public class SortTriangleByTypes {
         return maxLength == Math.sqrt(Math.pow(lengthOfSides.get(0), 2) + Math.pow(lengthOfSides.get(1), 2));
     }
 
-    private void tableOfTriangles(TriangleTypes triangleType, Triangle triangle){
+    private static void tableOfTriangles(TriangleTypes triangleType, Triangle triangle){
         triangleTypesMap.computeIfAbsent(triangleType, k -> new ArrayList<>());
         triangleTypesMap.get(triangleType).add(triangle);
     }
 
-    public Map<TriangleTypes, ArrayList<Object>> getTriangleTypesTable() {
+    public static Map<TriangleTypes, ArrayList<Object>> getTriangleTypesTable() {
         return triangleTypesMap;
     }
 
-    public double findMaxPerimeter(Map<TriangleTypes, ArrayList<Object>> triangleTypesMap, TriangleTypes triangleType) {
+    public static double findMaxPerimeter(Map<TriangleTypes, ArrayList<Object>> triangleTypesMap, TriangleTypes triangleType) {
         ArrayList<Object> trianglesProvidedType = triangleTypesMap.get(triangleType);
         ArrayList<Double> trianglePerimeters = new ArrayList<>();
         for (Object obj : trianglesProvidedType) {
@@ -58,17 +64,5 @@ public class SortTriangleByTypes {
         System.out.println("Max perimeter of " + triangleType.name() + " type -> " + maxPerimeter);
 
         return maxPerimeter;
-    }
-
-    public SortTriangleByTypes() {}
-
-    public SortTriangleByTypes(Triangle triangle) {
-        addTriangleToList(triangle);
-    }
-
-    public SortTriangleByTypes(ArrayList<Triangle> triangles) {
-        for (Triangle obj : triangles) {
-            addTriangleToList(obj);
-        }
     }
 }
