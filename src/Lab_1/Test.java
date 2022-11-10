@@ -9,7 +9,7 @@ public class Test {
         ArrayList<Triangle> triangles = new ArrayList<Triangle>();
 //        Triangle triangle0 = new Triangle(new Point(4, 0), new Point(0, 0), new Point(2, 2 * Math.sqrt(3))); //равност.
 //        triangles.add(triangle0);
-        //с помощью точек невозможно построить равносторонний треугольник
+        //с помощью точек сложно построить равносторонний треугольник
         Triangle triangle0 = new Triangle(4, 4, 4); //равност.
         triangles.add(triangle0);
         Triangle triangle1 = new Triangle(new Point(0, 6), new Point(4, 4), new Point(0, 0)); //разност.
