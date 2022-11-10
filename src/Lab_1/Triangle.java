@@ -148,6 +148,6 @@ public class Triangle {
                 ", square=" + square +
                 ", perimeter=" + perimeter +
                 ", ifExist=" + ifExist +
-                '}';
+                "}\n";
     }
 }
