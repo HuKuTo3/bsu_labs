@@ -69,14 +69,22 @@ public class SortTriangleByTypes {
 
     public static double findMaxSquare(TriangleTypes triangleType){
         ArrayList<Double> triangleSquares = new ArrayList<>();
-        Triangle triangle = null;
+        Triangle triangle = null, triangleWithMaxSquare = null;
+//        for (Object obj : triangleTypesMap.get(triangleType)) {
+//            triangle = (Triangle) obj;
+//            triangleSquares.add(triangle.getSquare());
+//        }
+        double maxSquare = 0;
         for (Object obj : triangleTypesMap.get(triangleType)) {
             triangle = (Triangle) obj;
-            triangleSquares.add(triangle.getSquare());
+            if (triangle.getSquare() > maxSquare) {
+                maxSquare = triangle.getSquare();
+                triangleWithMaxSquare = triangle;
+            }
         }
-        double maxSquare = Collections.max(triangleSquares);
+//        double maxSquare = Collections.max(triangleSquares);
         System.out.println("Max square of " + triangleType.name() + " type -> " + maxSquare
-                + "\n" + triangle.toString());
+                + "\n" + triangleWithMaxSquare.toString());
 
         return maxSquare;
     }
