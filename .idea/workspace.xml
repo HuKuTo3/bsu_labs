@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf2fd118-9155-4571-9b2b-a74b4b8e5968" name="Changes" comment="GG">
-      <change beforePath="$PROJECT_DIR$/src/Lab_1/SortTriangleByTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_1/SortTriangleByTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1667847877843</updated>
       <workItem from="1667847879718" duration="3854000" />
-      <workItem from="1668012561421" duration="4102000" />
+      <workItem from="1668012561421" duration="5630000" />
     </task>
     <task id="LOCAL-00001" summary="GG">
       <created>1667851733711</created>
@@ -101,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668018558740</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="GG">
+      <created>1668019472289</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668019472289</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
