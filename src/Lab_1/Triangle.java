@@ -99,7 +99,8 @@ public class Triangle {
         this.thirdSideLength = calculateSideLength(thirdPoint, firstPoint);
         this.square = calculateSquare(firstSideLength, secondSideLength, thirdSideLength);
         this.perimeter = calculatePerimeter(firstSideLength, secondSideLength, thirdSideLength);
-        this.ifExist = ifExistByPoints(firstPoint, secondPoint, thirdPoint);
+        //this.ifExist = ifExistByPoints(firstPoint, secondPoint, thirdPoint);
+        this.ifExist = ifExistBySides(firstSideLength, secondSideLength, thirdSideLength);
     }
 
     public Triangle(double firstSideLength, double secondSideLength, double thirdSideLength) {
