@@ -1,19 +1,15 @@
-package Lab_2_Bouquet.MediumFlowers;
-
-import Lab_2_Bouquet.Flower;
+package Lab_2_Bouquet.Flowers;
 
 public class Carnation extends Flower {
     public Carnation() {
-        this.isFlowerFresh = true;
+        this.isFlowerFresh = false;
         this.stemLength = 80;
         this.price = 50;
-        this.size = "Medium";
     }
 
-    public Carnation(boolean isFlowerFresh, int stemLength, int price) {
+    public Carnation(boolean isFlowerFresh, double stemLength, int price) {
         this.isFlowerFresh = isFlowerFresh;
         this.stemLength = stemLength;
         this.price = price;
-        this.size = "Medium";
     }
 }

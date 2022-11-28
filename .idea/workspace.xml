@@ -5,8 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf2fd118-9155-4571-9b2b-a74b4b8e5968" name="Changes" comment="GG">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_1/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_1_Triangle/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_1/SortTriangleByTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_1_Triangle/SortTriangleByTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_1/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_1_Triangle/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_1/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_1_Triangle/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_1/TriangleTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_1_Triangle/TriangleTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_2_Bouquet/Accessories/Tape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_2_Bouquet/Accessories/Tape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_2_Bouquet/Accessories/Wrapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_2_Bouquet/Accessories/Wrapping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_2_Bouquet/Accessory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_2_Bouquet/Accessories/Accessory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_2_Bouquet/BigFlowers/Hydrangea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_2_Bouquet/BigFlowers/Peony.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_2_Bouquet/BigFlowers/Sunflower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_2_Bouquet/Flowers/Sunflower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_2_Bouquet/Bouquet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_2_Bouquet/Bouquet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_2_Bouquet/Flower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_2_Bouquet/Flowers/Flower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_2_Bouquet/MediumFlowers/Carnation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_2_Bouquet/Flowers/Carnation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_2_Bouquet/MediumFlowers/Narcissus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_2_Bouquet/MediumFlowers/Tulip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_2_Bouquet/SmallFlowers/Daisy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_2_Bouquet/Flowers/Daisy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_2_Bouquet/SmallFlowers/Myosotis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_2_Bouquet/SmallFlowers/Primrose.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_2_Bouquet/SmallFlowers/SmallFlower.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_2_Bouquet/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_2_Bouquet/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,25 +52,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Lab_2.Test">
-    <configuration name="Lab_2.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab_2.Test" />
+}</component>
+  <component name="RunManager" selected="Application.Lab_2_Bouquet.Test">
+    <configuration name="Lab_2_Bouquet.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab_2_Bouquet.Test" />
       <module name="bsu_labs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab_2.*" />
+          <option name="PATTERN" value="Lab_2_Bouquet.Flowers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,11 +79,11 @@
       </method>
     </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab_1.Test" />
+      <option name="MAIN_CLASS_NAME" value="Lab_1_Triangle.Test" />
       <module name="bsu_labs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab_1.*" />
+          <option name="PATTERN" value="Lab_1_Triangle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,7 +93,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Lab_2.Test" />
+        <item itemvalue="Application.Lab_2_Bouquet.Test" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
@@ -91,6 +111,8 @@
       <workItem from="1668066548959" duration="7673000" />
       <workItem from="1669487429481" duration="48000" />
       <workItem from="1669538349863" duration="5444000" />
+      <workItem from="1669551761835" duration="128000" />
+      <workItem from="1669635591569" duration="7524000" />
     </task>
     <task id="LOCAL-00001" summary="GG">
       <created>1667851733711</created>
@@ -155,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668070306499</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="GG">
+      <created>1669551871233</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669551871233</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

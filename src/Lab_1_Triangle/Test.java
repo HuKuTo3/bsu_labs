@@ -1,8 +1,6 @@
-package Lab_1;
+package Lab_1_Triangle;
 
 import java.util.ArrayList;
-
-import static Lab_1.TriangleTypes.RECTANGULAR;
 
 public class Test {
     public static void main(String[] args) {

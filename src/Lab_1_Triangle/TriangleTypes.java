@@ -1,4 +1,4 @@
-package Lab_1;
+package Lab_1_Triangle;
 
 public enum TriangleTypes {
     EQUILATERAL, ARBITRARY, RECTANGULAR, ISOSCELES;
