@@ -31,9 +31,10 @@ public abstract class Flower {
 
     @Override
     public String toString() {
-        return  "\nisFlowerFresh=" + isFlowerFresh +
-                "\nstemLength=" + stemLength +
-                "\nprice=" + price +
-                "\n";
+        return "Flower{" +
+                "isFlowerFresh=" + isFlowerFresh +
+                ", stemLength=" + stemLength +
+                ", price=" + price +
+                "}\n";
     }
 }

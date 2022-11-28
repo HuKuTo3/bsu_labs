@@ -12,4 +12,13 @@ public class Daisy extends Flower {
         this.stemLength = stemLength;
         this.price = price;
     }
+
+    @Override
+    public String toString() {
+        return "Daisy{" +
+                "isFlowerFresh=" + isFlowerFresh +
+                ", stemLength=" + stemLength +
+                ", price=" + price +
+                "}\n";
+    }
 }

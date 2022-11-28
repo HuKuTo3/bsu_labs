@@ -13,7 +13,8 @@ public abstract class Accessory {
 
     @Override
     public String toString() {
-        return  "\nprice=" + price +
-                "\n";
+        return "Accessory{" +
+                "price=" + price +
+                "}\n";
     }
 }

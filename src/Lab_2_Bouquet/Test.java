@@ -30,15 +30,12 @@ public class Test {
                 System.out.println("1. Carnation");
                 ArrayList<Flower> flowers = new ArrayList<>();
                 flowers.add(new Carnation());
-                System.out.println(flowers.get(0));
 
                 System.out.println("2. Daisy");
                 flowers.add(new Daisy());
-                System.out.println(flowers.get(1));
 
                 System.out.println("3. Sunflower");
                 flowers.add(new Sunflower());
-                System.out.println(flowers.get(2));
 
                 int number1 = scanner.nextInt();
                 while (number1 < 1 || number1 > 3) {
@@ -51,11 +48,9 @@ public class Test {
                 System.out.println("1. Tape");
                 ArrayList<Accessory> accessories = new ArrayList<>();
                 accessories.add(new Tape());
-                System.out.println(accessories.get(0));
 
                 System.out.println("2. Wrapping");
                 accessories.add(new Wrapping());
-                System.out.println(accessories.get(1));
 
                 int number1 = scanner.nextInt();
                 while (number1 < 1 || number1 > 2) {
@@ -85,7 +80,6 @@ public class Test {
                     number2 = scanner.nextInt();
                     flower = bouquet.getFlowerInRange(number1, number2);
                 }
-                System.out.println(flower.getClass());
                 System.out.println(flower);
             }
             else if (number == 6) {

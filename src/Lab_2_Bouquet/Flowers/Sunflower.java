@@ -12,4 +12,13 @@ public class Sunflower extends Flower {
         this.stemLength = stemLength;
         this.price = price;
     }
+
+    @Override
+    public String toString() {
+        return "Sunflower{" +
+                "isFlowerFresh=" + isFlowerFresh +
+                ", stemLength=" + stemLength +
+                ", price=" + price +
+                "}\n";
+    }
 }

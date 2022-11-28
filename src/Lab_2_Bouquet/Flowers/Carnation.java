@@ -12,4 +12,13 @@ public class Carnation extends Flower {
         this.stemLength = stemLength;
         this.price = price;
     }
+
+    @Override
+    public String toString() {
+        return "Carnation{" +
+                "isFlowerFresh=" + isFlowerFresh +
+                ", stemLength=" + stemLength +
+                ", price=" + price +
+                "}\n";
+    }
 }
