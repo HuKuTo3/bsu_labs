@@ -5,7 +5,7 @@ import Lab_2_Bouquet.Flowers.Flower;
 
 import java.util.ArrayList;
 
-public class Bouquet extends FactoryBouquet{
+public class Bouquet extends FactoryBouquet {
     public Bouquet() {
         flowers = new ArrayList<>();
         accessories = new ArrayList<>();

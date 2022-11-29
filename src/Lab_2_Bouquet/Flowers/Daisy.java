@@ -1,6 +1,8 @@
 package Lab_2_Bouquet.Flowers;
 
-public class Daisy extends Flower {
+import java.io.Serializable;
+
+public class Daisy extends Flower implements Serializable {
     public Daisy() {
         this.isFlowerFresh = true;
         this.stemLength = 25;

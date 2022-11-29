@@ -6,13 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cf2fd118-9155-4571-9b2b-a74b4b8e5968" name="Changes" comment="GG">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab_2_Bouquet/Accessories/Accessory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_2_Bouquet/Accessories/Accessory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab_2_Bouquet/Accessories/Tape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_2_Bouquet/Accessories/Tape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab_2_Bouquet/Accessories/Wrapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_2_Bouquet/Accessories/Wrapping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab_2_Bouquet/Flowers/Carnation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_2_Bouquet/Flowers/Carnation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_2_Bouquet/Bouquet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_2_Bouquet/Bouquet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lab_2_Bouquet/Flowers/Daisy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_2_Bouquet/Flowers/Daisy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab_2_Bouquet/Flowers/Flower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_2_Bouquet/Flowers/Flower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab_2_Bouquet/Flowers/Sunflower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_2_Bouquet/Flowers/Sunflower.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lab_2_Bouquet/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_2_Bouquet/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,9 +73,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab_2_Bouquet.Test1" />
+      <module name="bsu_labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab_2_Bouquet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Lab_2_Bouquet.Test" />
+        <item itemvalue="Application.Test1" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
@@ -99,7 +108,8 @@
       <workItem from="1669487429481" duration="48000" />
       <workItem from="1669538349863" duration="5444000" />
       <workItem from="1669551761835" duration="128000" />
-      <workItem from="1669635591569" duration="9249000" />
+      <workItem from="1669635591569" duration="12126000" />
+      <workItem from="1669703661138" duration="812000" />
     </task>
     <task id="LOCAL-00001" summary="GG">
       <created>1667851733711</created>
@@ -185,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669643500226</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="GG">
+      <created>1669645500301</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1669645500301</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
