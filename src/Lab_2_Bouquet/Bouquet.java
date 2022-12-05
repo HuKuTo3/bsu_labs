@@ -1,17 +1,22 @@
 package Lab_2_Bouquet;
 
 import Lab_2_Bouquet.Accessories.Accessory;
+import Lab_2_Bouquet.Flowers.BigFlower;
 import Lab_2_Bouquet.Flowers.Flower;
+import Lab_2_Bouquet.Flowers.MediumFlower;
+import Lab_2_Bouquet.Flowers.SmallFlower;
 
 import java.util.ArrayList;
 
-public class Bouquet extends FactoryBouquet {
+public class Bouquet {
+    ArrayList<Flower> flowers;
+    ArrayList<Accessory> accessories;
+
     public Bouquet() {
         flowers = new ArrayList<>();
         accessories = new ArrayList<>();
     }
 
-    @Override
     public void addFlower(Flower flower) {
         flowers.add(flower);
     }
@@ -22,7 +27,6 @@ public class Bouquet extends FactoryBouquet {
         }
     }
 
-    @Override
     public void addAccessory(Accessory accessory) {
         accessories.add(accessory);
     }
@@ -30,6 +34,19 @@ public class Bouquet extends FactoryBouquet {
     public void addAccessories(ArrayList<Accessory> accessories) {
         for (Accessory accessory : accessories) {
             addAccessory(accessory);
+        }
+    }
+
+    public void addNewFlower(int mode) {
+        switch(mode) {
+            case 0:
+                addFlower(new BigFlower());
+            case 1:
+                addFlower(new MediumFlower());
+            case 2:
+                addFlower(new SmallFlower());
+            default:
+                throw new IllegalArgumentException("illegal mode");
         }
     }
 
@@ -43,7 +60,6 @@ public class Bouquet extends FactoryBouquet {
                 "\n";
     }
 
-    @Override
     public int calculateBouquetPrice() {
         int price = 0;
 
@@ -57,7 +73,6 @@ public class Bouquet extends FactoryBouquet {
         return price;
     }
 
-    @Override
     public void sortBouquetByFreshness() {
         ArrayList<Flower> freshFlowers = new ArrayList<>();
         ArrayList<Flower> notFreshFlowers = new ArrayList<>();
@@ -76,7 +91,6 @@ public class Bouquet extends FactoryBouquet {
         flowers.addAll(notFreshFlowers);
     }
 
-    @Override
     public Flower getFlowerInRange(double firstBorder, double secondBorder) {
         if (firstBorder < 0 || secondBorder < 0) {
             return null;

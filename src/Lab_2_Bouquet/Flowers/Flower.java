@@ -1,6 +1,7 @@
 package Lab_2_Bouquet.Flowers;
 
-public abstract class Flower {
+public abstract class Flower implements Comparable<Flower>{
+    protected String name;
     protected boolean isFlowerFresh;
     protected double stemLength;
     protected int price;
@@ -32,9 +33,17 @@ public abstract class Flower {
     @Override
     public String toString() {
         return "Flower{" +
-                "isFlowerFresh=" + isFlowerFresh +
+                "name=" + name +
+                ", isFlowerFresh=" + isFlowerFresh +
                 ", stemLength=" + stemLength +
                 ", price=" + price +
                 "}\n";
+    }
+
+    @Override
+    public int compareTo(Flower o) {
+        int val1 = (this.isFlowerFresh()) ? 1 : 0;
+        int val2 = (o.isFlowerFresh()) ? 1 : 0;
+        return val1 - val2;
     }
 }
