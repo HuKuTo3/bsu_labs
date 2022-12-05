@@ -7,10 +7,11 @@ import Lab_2_Bouquet.flowers.WildFlower;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 public class Bouquet {
-    ArrayList<Flower> flowers;
-    ArrayList<Accessory> accessories;
+    List<Flower> flowers;
+    List<Accessory> accessories;
 
     public Bouquet() {
         flowers = new ArrayList<>();
