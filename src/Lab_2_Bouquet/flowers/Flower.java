@@ -47,6 +47,5 @@ public abstract class Flower implements Comparable<Flower>{
         return val1 - val2;
     }
 
-    // цветок -> домашний/дикий дикий -> обычный/хищный
     // двухфакторный конструктор
 }
