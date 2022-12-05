@@ -6,15 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cf2fd118-9155-4571-9b2b-a74b4b8e5968" name="Changes" comment="GG">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab_2_Bouquet/Accessories/Accessory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_2_Bouquet/accessories/Accessory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab_2_Bouquet/Accessories/Tape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_2_Bouquet/accessories/Tape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab_2_Bouquet/Accessories/Wrapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_2_Bouquet/accessories/Wrapping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab_2_Bouquet/Bouquet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_2_Bouquet/Bouquet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab_2_Bouquet/Flowers/BigFlower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_2_Bouquet/flowers/BigFlower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab_2_Bouquet/Flowers/Flower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_2_Bouquet/flowers/Flower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab_2_Bouquet/Flowers/MediumFlower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_2_Bouquet/flowers/MediumFlower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab_2_Bouquet/Flowers/SmallFlower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_2_Bouquet/flowers/SmallFlower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab_2_Bouquet/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_2_Bouquet/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_2_Bouquet/accessories/Tape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_2_Bouquet/accessories/Tape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab_2_Bouquet/accessories/Wrapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_2_Bouquet/accessories/Wrapping.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +120,7 @@
       <workItem from="1670064901822" duration="79000" />
       <workItem from="1670185755370" duration="1630000" />
       <workItem from="1670248711508" duration="78000" />
-      <workItem from="1670248807678" duration="3515000" />
+      <workItem from="1670248807678" duration="4445000" />
     </task>
     <task id="LOCAL-00001" summary="GG">
       <created>1667851733711</created>
@@ -241,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670249979827</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="GG">
+      <created>1670253286461</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1670253286461</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +261,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="GG" />
     <option name="LAST_COMMIT_MESSAGE" value="GG" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalArgumentException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
