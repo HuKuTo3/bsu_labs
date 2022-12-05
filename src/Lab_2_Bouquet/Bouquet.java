@@ -1,13 +1,11 @@
 package Lab_2_Bouquet;
 
-import Lab_2_Bouquet.Accessories.Accessory;
-import Lab_2_Bouquet.Flowers.BigFlower;
-import Lab_2_Bouquet.Flowers.Flower;
-import Lab_2_Bouquet.Flowers.MediumFlower;
-import Lab_2_Bouquet.Flowers.SmallFlower;
+import Lab_2_Bouquet.accessories.Accessory;
+import Lab_2_Bouquet.flowers.Flower;
+import Lab_2_Bouquet.flowers.HomeFlower;
+import Lab_2_Bouquet.flowers.WildFlower;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 
 public class Bouquet {
@@ -42,11 +40,9 @@ public class Bouquet {
     public void addNewFlower(int mode) {
         switch(mode) {
             case 0:
-                addFlower(new BigFlower());
+                addFlower(new HomeFlower());
             case 1:
-                addFlower(new MediumFlower());
-            case 2:
-                addFlower(new SmallFlower());
+                addFlower(new WildFlower());
             default:
                 throw new IllegalArgumentException("illegal mode");
         }

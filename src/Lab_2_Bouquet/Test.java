@@ -6,11 +6,6 @@ package Lab_2_Bouquet;
 //import Lab_2_Bouquet.Flowers.Daisy;
 //import Lab_2_Bouquet.Flowers.Sunflower;
 
-import Lab_2_Bouquet.Flowers.BigFlower;
-import Lab_2_Bouquet.Flowers.Flower;
-import Lab_2_Bouquet.Flowers.MediumFlower;
-import Lab_2_Bouquet.Flowers.SmallFlower;
-
 public class Test {
     public static void main(String[] args) {
         Bouquet bouquet = new Bouquet();

@@ -1,4 +1,4 @@
-package Lab_2_Bouquet.Accessories;
+package Lab_2_Bouquet.accessories;
 
 public abstract class Accessory {
     protected int price;

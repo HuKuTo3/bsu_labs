@@ -1,4 +1,4 @@
-package Lab_2_Bouquet.Flowers;
+package Lab_2_Bouquet.flowers;
 
 public abstract class Flower implements Comparable<Flower>{
     protected String name;
@@ -46,4 +46,7 @@ public abstract class Flower implements Comparable<Flower>{
         int val2 = (o.isFlowerFresh()) ? 1 : 0;
         return val1 - val2;
     }
+
+    // цветок -> домашний/дикий дикий -> обычный/хищный
+    // двухфакторный конструктор
 }
