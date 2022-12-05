@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf2fd118-9155-4571-9b2b-a74b4b8e5968" name="Changes" comment="GG">
-      <change afterPath="$PROJECT_DIR$/src/Lab_2_Bouquet/Flowers/BigFlower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab_2_Bouquet/Flowers/MediumFlower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab_2_Bouquet/Flowers/SmallFlower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab_2_Bouquet/Bouquet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_2_Bouquet/Bouquet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab_2_Bouquet/FactoryBouquet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab_2_Bouquet/Flowers/Carnation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab_2_Bouquet/Flowers/Daisy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab_2_Bouquet/Flowers/Flower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_2_Bouquet/Flowers/Flower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab_2_Bouquet/Flowers/Sunflower.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab_2_Bouquet/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab_2_Bouquet/Test.java" afterDir="false" />
-    </list>
+    <list default="true" id="cf2fd118-9155-4571-9b2b-a74b4b8e5968" name="Changes" comment="GG" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,6 +116,7 @@
       <workItem from="1670064901822" duration="79000" />
       <workItem from="1670185755370" duration="1630000" />
       <workItem from="1670248711508" duration="78000" />
+      <workItem from="1670248807678" duration="429000" />
     </task>
     <task id="LOCAL-00001" summary="GG">
       <created>1667851733711</created>
@@ -227,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669704718044</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="GG">
+      <created>1670248856826</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1670248856826</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

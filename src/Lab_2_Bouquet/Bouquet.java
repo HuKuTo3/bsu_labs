@@ -7,6 +7,8 @@ import Lab_2_Bouquet.Flowers.MediumFlower;
 import Lab_2_Bouquet.Flowers.SmallFlower;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 
 public class Bouquet {
     ArrayList<Flower> flowers;
@@ -74,21 +76,7 @@ public class Bouquet {
     }
 
     public void sortBouquetByFreshness() {
-        ArrayList<Flower> freshFlowers = new ArrayList<>();
-        ArrayList<Flower> notFreshFlowers = new ArrayList<>();
-
-        for (Flower flower : flowers) {
-            if(flower.isFlowerFresh()) {
-                freshFlowers.add(flower);
-            }
-            else {
-                notFreshFlowers.add(flower);
-            }
-        }
-
-        flowers.removeAll(flowers);
-        flowers.addAll(freshFlowers);
-        flowers.addAll(notFreshFlowers);
+        Collections.sort(flowers);
     }
 
     public Flower getFlowerInRange(double firstBorder, double secondBorder) {
